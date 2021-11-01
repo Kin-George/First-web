@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: rgb(14, 15, 15);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    margin: 0 2rem;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#replays {
+    flex-direction: row;
+}
+
+#replays > h1 {
+    margin-left: 1.4rem;
+}
+
+#ot1 {
+    flex-direction: row;
+}
+
+#ot1 > h1 {
+    margin-left: 1.4rem;
+}
+
+#ot2 {
+    flex-direction: row;
+}
+
+#ot2 > h1 {
+    margin-left: 1.4rem;
+}
+
+#autor {
+    flex-direction: row-reverse;
+}
+
+#autor > h1 {
+    margin-left: 1.4rem;
+}
+
+header>div>img {
+    height: 7rem;
+    width: auto;
+}
+
+.lista-campeones {
+    background-image: url(img/fondo.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campeon {
+    height: 28rem;
+    width: 28rem;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    width: 15rem;
+    border-radius: 0.8rem;
+    position: relative;
+    top: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#zed {
+    background-color: rgb(52, 61, 64);
+    color: #ffffff;
+}
+
+#zed-t {
+    background-color: rgb(108, 118, 121);
+}
+
+#lee {
+    background-color: rgb(172, 93, 0);
+}
+
+#lee-t {
+    background-color: rgb(201, 157, 106);
+}
+
+#yasuo {
+    background-color: rgb(33, 102, 200);
+}
+
+#yasuo-t {
+    background-color: rgb(131, 157, 195);
+}
+
+#yone {
+    background-color: rgb(144, 0, 0);
+    color: #ffffff;
+}
+
+#yone-t {
+    background-color: rgb(164, 96, 96);
+}
+
+#shaco {
+    background-color: rgb(159, 117, 60);
+}
+
+#shaco-t {
+    background-color: rgb(203, 174, 136);
+}
+
+#akali {
+    background-color: rgb(189, 118, 123);
+}
+
+#akali-t {
+    background-color: rgb(190, 145, 148);
+}
+
+#jhin {
+    background-color: rgb(186, 234, 237);
+}
+
+#jhin-t {
+    background-color: rgb(207, 219, 219);
+}
+
+#fate {
+    background-color: rgb(101, 155, 255);
+}
+
+#fate-t {
+    background-color: rgb(178, 195, 227);
+}
+
+footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(147, 146, 156);
+}
+
+@media (min-width: 419px) {
+    #autor {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 900px) {
+    header {
+        margin: 0 8rem;
+        font-size: 1.1rem;
+    }
+
+    .campeon {
+        margin: 0 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    .lista-campeones {
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .campeon {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+}
